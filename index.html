@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NIKE:JustDOIt!</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <nav class="nav">
+        <div class="img">
+            <a href="#"><img src="logo.png" alt=""> </a>
+        </div>
+        <div class="menubar" id="navmenu">
+            <a href="#home" id="homie">Home</a>
+            <a href="#feature" id="features">Featured</a>
+            <a href="#product" id="products">Products</a>
+        </div>
+        <div id="menuToggle">
+
+            <input id="att" type="checkbox" />
+
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="nav2">
+                <div id="nav211" class="nav211">
+                    <a onclick="att()" href="#">
+                        <li class="navRes">Home</li>
+                    </a>
+                    <a onclick="att()" href="#feature">
+                        <li class="navRes">Featured</li>
+                    </a>
+                    <a onclick="att()" href="#product">
+                        <li class="navRes">Products</li>
+                    </a>
+                </div>
+            </ul>
+        </div>
+    </nav>
+    <section id="home">
+        <div class="black">
+
+        </div>
+        <div class="home">
+
+            <h1 id="home1">
+                <b> AMAZING SHOES AT AN <br> AMAZING PRICE</b>
+            </h1>
+            <h6>Your Perfect Shoe Mate</h6>
+            <a href="#feature"><button type="button">Product Catalogue</button></a>
+        </div>
+    </section>
+
+    <section id="feature">
+        <div class="feature">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <h1>Featured Products</h1>
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="text-center">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="nike-shoe3.png" class="img-fluid" id="im12">
+                            <img src="nike-shoe1.png" class="img-fluid" id="mainimg">
+                            <img src="nike-shoe2.png" class="img-fluid" id="im11">
+                            <h2 class="discost">₹12000/-</h2>
+                            <p class="disname">Nike Air Force 1</p>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="nike-shoe1.png" class="img-fluid" id="im12">
+                            <img src="nike-shoe2.png" class="img-fluid" id="mainimg">
+                            <img src="nike-shoe3.png" class="img-fluid" id="im11">
+
+                            <h2 class="discost">₹15000/-</h2>
+                            <p class="disname">Nike Air Force 1(Classic)</p>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="nike-shoe2.png" class="img-fluid" id="im12">
+                            <img src="nike-shoe3.png" class="img-fluid" id="mainimg">
+                            <img src="nike-shoe1.png" class="img-fluid" id="im11">
+                            <h2 class="discost">₹10000</h2>
+                            <p class="disname">Nike Air Maxx</p>
+                        </div>
+
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="product">
+        <h1>OUR PRODUCTS</h1>
+        <div class="box">
+            <span class="picbox">
+                <img src="nike-shoe5.png" width="470px">
+
+            </span>
+
+
+
+            <div class="text">
+                <h1>Limited Edition<br>Nike Air Force low (All Black) </h1>
+                <p>Make sport heritage come to life with the Nike Dunk Low By You.Choose from premium leathers—including a special basketball-pebbled option—and suedes inspired by the Dunk's archival vault. Accent your foundation with classic varsity colours for a tribute to basketball history.</p>
+                <h2>₹18750/-</h2>
+            </div>
+        </div>
+        <div class="box2">
+            <span class="picbox2">
+                <img src="nike-shoe4.png" width="440px">
+
+            </span>
+            <div class="text2">
+
+                <h1>Made Perfect for Running!<br>Nike Metcon 7(Limited Edition)</h1>
+                <p>The Nike Metcon 7 By You shines the spotlight on teamwork with a brand-new colour palette and details that are inspired by a band of battle-hardened warriors.This design is the gold standard for weight training—even tougher and more stable than previous versions.React foam ups the comfort to keep you ready for high-intensity cardio.Plus, a tab locks down your laces, so you can forget about them coming untied when you're focused on helping your partner beat their PB.</p>
+                <h2>₹14000/-</h2>
+            </div>
+        </div>
+
+    </section>
+    <script>
+        function att() { document.getElementById('att').checked = false; }
+    </script>
+
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.3/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.3/firebase-analytics.js";
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyBEkIdcIpz1ih6IGaKilW6jg_-GD5Cr0d0",
+            authDomain: "replica-bae3a.firebaseapp.com",
+            projectId: "replica-bae3a",
+            storageBucket: "replica-bae3a.appspot.com",
+            messagingSenderId: "437977473297",
+            appId: "1:437977473297:web:99fa2ef21f7ba06dd82cb0",
+            measurementId: "G-M625GWC2SE"
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+
+    <script src="/__/firebase/8.10.0/firebase-app.js"></script>
+
+    <script src="/__/firebase/8.10.0/firebase-auth.js"></script>
+    <script src="/__/firebase/8.10.0/firebase-firestore.js"></script>
+    <script src="/__/firebase/8.10.0/firebase-app.js"></script>
+    <script src="/__/firebase/8.10.0/firebase-analytics.js"></script>
+
+</body>
+
+</html>
